@@ -29,7 +29,7 @@ export default function ResultScreen({ route, navigation }) {
       setLoading(true);
       
       // TODO: Replace with your actual serverless function URL
-      const response = await fetch('YOUR_SERVERLESS_FUNCTION_URL', {
+      const response = await fetch('https://my-cat-eye.vercel.app/api/generate-image', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
