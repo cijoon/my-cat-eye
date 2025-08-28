@@ -1,7 +1,7 @@
 {
-  "name": "my-cat-eye",
+  "name": "my-cats-eye",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.22",
+    "expo": "^53.0.0",
+    "expo-camera": "~16.1.11",
+    "expo-media-library": "~17.1.7",
+    "expo-sharing": "~13.1.5",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.6"
+    "react-native": "0.79.5",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "react-native-screens": "~4.11.1",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-gesture-handler": "~2.24.0",
+    "expo-permissions": "~14.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.26.0"
   },
   "private": true
 }
